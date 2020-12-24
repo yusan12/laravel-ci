@@ -53,7 +53,7 @@ jobs:
   deploy:
     docker:
       - image: circleci/php:7.3-node-browsers
-      environment:
+    environment:
       AWS_DEFAULT_REGION: ap-northeast-1
     steps:
       - checkout
