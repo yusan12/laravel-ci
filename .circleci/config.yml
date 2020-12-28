@@ -121,7 +121,7 @@ workflows:
               only:
                 - master
 
-                - deploy_tmp:
+      - deploy_tmp:
           requires:
             - build
           filters:
