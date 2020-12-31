@@ -2,9 +2,6 @@ version: 0.2
 
 phases:
   install:
-  steps:
-      - checkout
-      - run: sudo composer self-update --1
     commands:
       -
       - composer install -n --no-dev --prefer-dist
